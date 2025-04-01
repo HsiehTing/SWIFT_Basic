@@ -15,7 +15,7 @@ open class OpenClass {
     }
 }
 
-// 不能只 override get{}，因為會把 computed property 轉變成 read-only。//
+// MARK: 不能只 override get{}，因為會把 computed property 轉變成 read-only。//
 
 public class OpenSubclass: OpenClass {
     public override var computedProperty: Int {

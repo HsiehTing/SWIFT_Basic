@@ -22,13 +22,13 @@ class Model {
     }()
     
     
-    func adGetString() -> String{
+    func adGetString() -> String {
         return adDateFormatter.string(from: Date())
     }
     
     func adStringToDate(string: String) -> Date {
         
-        guard let safedate = adDateFormatter.date(from: string) else { return Date()}
+        guard let safedate = adDateFormatter.date(from: string) else { return Date() }
         
         return safedate
         
@@ -52,9 +52,9 @@ class Model {
         return rocDateFormatter.string(from: Date())
     }
     
-    func rocStringterToDate(string: String) -> Date {
+    func rocStringToDate(string: String) -> Date {
         
-        guard let date = rocDateFormatter.date(from: string) else { return Date()}
+        guard let date = rocDateFormatter.date(from: string) else { return Date() }
         
         return date
         

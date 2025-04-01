@@ -20,12 +20,10 @@ public class CurrencyFetchAPI {
                 
                 do {
                     let decodedData = try decoder.decode(APIData.self, from: data)
-                    // FIXME: 不用刻意轉 global threads，dataTask closure 就是在 backend threads 內
                     DispatchQueue.main.async {
                         completion(.success(decodedData.data))
                     }
                 } catch {
-                    // FIXME: fail 也要回傳結果，避免乾等處理
                     DispatchQueue.main.async {
                         completion(.failure(error))
                     }
