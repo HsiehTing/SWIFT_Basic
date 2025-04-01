@@ -1,0 +1,6 @@
+framework module PracticeFrameWork {
+  umbrella header "PracticeFrameWork.h"
+  export *
+
+  module * { export * }
+}

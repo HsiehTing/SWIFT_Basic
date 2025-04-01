@@ -1,0 +1,1454 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "PracticeFrameWork",
+    "printedName": "PracticeFrameWork",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PracticeFrameWork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AppDelegate",
+        "printedName": "AppDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "application",
+            "printedName": "application(_:didFinishLaunchingWithOptions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "usr": "c:objc(cs)UIApplication"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LaunchOptionsKey",
+                        "printedName": "UIKit.UIApplication.LaunchOptionsKey",
+                        "usr": "c:@T@UIApplicationLaunchOptionsKey"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PracticeFrameWork@objc(cs)AppDelegate(im)application:didFinishLaunchingWithOptions:",
+            "mangledName": "$s17PracticeFrameWork11AppDelegateC11application_29didFinishLaunchingWithOptionsSbSo13UIApplicationC_SDySo0l6LaunchK3KeyaypGSgtF",
+            "moduleName": "PracticeFrameWork",
+            "isOpen": true,
+            "objc_name": "application:didFinishLaunchingWithOptions:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "application",
+            "printedName": "application(_:configurationForConnecting:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UISceneConfiguration",
+                "printedName": "UIKit.UISceneConfiguration",
+                "usr": "c:objc(cs)UISceneConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "usr": "c:objc(cs)UIApplication"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UISceneSession",
+                "printedName": "UIKit.UISceneSession",
+                "usr": "c:objc(cs)UISceneSession"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectionOptions",
+                "printedName": "UIKit.UIScene.ConnectionOptions",
+                "usr": "c:objc(cs)UISceneConnectionOptions"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PracticeFrameWork@objc(cs)AppDelegate(im)application:configurationForConnectingSceneSession:options:",
+            "mangledName": "$s17PracticeFrameWork11AppDelegateC11application_26configurationForConnecting7optionsSo20UISceneConfigurationCSo13UIApplicationC_So0K7SessionCSo0K17ConnectionOptionsCtF",
+            "moduleName": "PracticeFrameWork",
+            "isOpen": true,
+            "objc_name": "application:configurationForConnectingSceneSession:options:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "application",
+            "printedName": "application(_:didDiscardSceneSessions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "usr": "c:objc(cs)UIApplication"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<UIKit.UISceneSession>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UISceneSession",
+                    "printedName": "UIKit.UISceneSession",
+                    "usr": "c:objc(cs)UISceneSession"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PracticeFrameWork@objc(cs)AppDelegate(im)application:didDiscardSceneSessions:",
+            "mangledName": "$s17PracticeFrameWork11AppDelegateC11application_23didDiscardSceneSessionsySo13UIApplicationC_ShySo14UISceneSessionCGtF",
+            "moduleName": "PracticeFrameWork",
+            "isOpen": true,
+            "objc_name": "application:didDiscardSceneSessions:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "$main",
+            "printedName": "$main()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17PracticeFrameWork11AppDelegateC5$mainyyFZ",
+            "mangledName": "$s17PracticeFrameWork11AppDelegateC5$mainyyFZ",
+            "moduleName": "PracticeFrameWork",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AppDelegate",
+                "printedName": "PracticeFrameWork.AppDelegate",
+                "usr": "c:@M@PracticeFrameWork@objc(cs)AppDelegate"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PracticeFrameWork@objc(cs)AppDelegate(im)init",
+            "mangledName": "$s17PracticeFrameWork11AppDelegateCACycfc",
+            "moduleName": "PracticeFrameWork",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PracticeFrameWork@objc(cs)AppDelegate",
+        "mangledName": "$s17PracticeFrameWork11AppDelegateC",
+        "moduleName": "PracticeFrameWork",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "MainType",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PracticeFrameWork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SceneDelegate",
+        "printedName": "SceneDelegate",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "window",
+            "printedName": "window",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIWindow?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIWindow",
+                    "printedName": "UIKit.UIWindow",
+                    "usr": "c:objc(cs)UIWindow"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PracticeFrameWork@objc(cs)SceneDelegate(py)window",
+            "mangledName": "$s17PracticeFrameWork13SceneDelegateC6windowSo8UIWindowCSgvp",
+            "moduleName": "PracticeFrameWork",
+            "isOpen": true,
+            "objc_name": "window",
+            "declAttributes": [
+              "HasInitialValue",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIWindow?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIWindow",
+                        "printedName": "UIKit.UIWindow",
+                        "usr": "c:objc(cs)UIWindow"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PracticeFrameWork@objc(cs)SceneDelegate(im)window",
+                "mangledName": "$s17PracticeFrameWork13SceneDelegateC6windowSo8UIWindowCSgvg",
+                "moduleName": "PracticeFrameWork",
+                "implicit": true,
+                "isOpen": true,
+                "objc_name": "window",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIWindow?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIWindow",
+                        "printedName": "UIKit.UIWindow",
+                        "usr": "c:objc(cs)UIWindow"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PracticeFrameWork@objc(cs)SceneDelegate(im)setWindow:",
+                "mangledName": "$s17PracticeFrameWork13SceneDelegateC6windowSo8UIWindowCSgvs",
+                "moduleName": "PracticeFrameWork",
+                "implicit": true,
+                "isOpen": true,
+                "objc_name": "setWindow:",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17PracticeFrameWork13SceneDelegateC6windowSo8UIWindowCSgvM",
+                "mangledName": "$s17PracticeFrameWork13SceneDelegateC6windowSo8UIWindowCSgvM",
+                "moduleName": "PracticeFrameWork",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "scene",
+            "printedName": "scene(_:willConnectTo:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIScene",
+                "printedName": "UIKit.UIScene",
+                "usr": "c:objc(cs)UIScene"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UISceneSession",
+                "printedName": "UIKit.UISceneSession",
+                "usr": "c:objc(cs)UISceneSession"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConnectionOptions",
+                "printedName": "UIKit.UIScene.ConnectionOptions",
+                "usr": "c:objc(cs)UISceneConnectionOptions"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PracticeFrameWork@objc(cs)SceneDelegate(im)scene:willConnectToSession:options:",
+            "mangledName": "$s17PracticeFrameWork13SceneDelegateC5scene_13willConnectTo7optionsySo7UISceneC_So0K7SessionCSo0K17ConnectionOptionsCtF",
+            "moduleName": "PracticeFrameWork",
+            "isOpen": true,
+            "objc_name": "scene:willConnectToSession:options:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sceneDidDisconnect",
+            "printedName": "sceneDidDisconnect(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIScene",
+                "printedName": "UIKit.UIScene",
+                "usr": "c:objc(cs)UIScene"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PracticeFrameWork@objc(cs)SceneDelegate(im)sceneDidDisconnect:",
+            "mangledName": "$s17PracticeFrameWork13SceneDelegateC18sceneDidDisconnectyySo7UISceneCF",
+            "moduleName": "PracticeFrameWork",
+            "isOpen": true,
+            "objc_name": "sceneDidDisconnect:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sceneDidBecomeActive",
+            "printedName": "sceneDidBecomeActive(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIScene",
+                "printedName": "UIKit.UIScene",
+                "usr": "c:objc(cs)UIScene"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PracticeFrameWork@objc(cs)SceneDelegate(im)sceneDidBecomeActive:",
+            "mangledName": "$s17PracticeFrameWork13SceneDelegateC20sceneDidBecomeActiveyySo7UISceneCF",
+            "moduleName": "PracticeFrameWork",
+            "isOpen": true,
+            "objc_name": "sceneDidBecomeActive:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sceneWillResignActive",
+            "printedName": "sceneWillResignActive(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIScene",
+                "printedName": "UIKit.UIScene",
+                "usr": "c:objc(cs)UIScene"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PracticeFrameWork@objc(cs)SceneDelegate(im)sceneWillResignActive:",
+            "mangledName": "$s17PracticeFrameWork13SceneDelegateC21sceneWillResignActiveyySo7UISceneCF",
+            "moduleName": "PracticeFrameWork",
+            "isOpen": true,
+            "objc_name": "sceneWillResignActive:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sceneWillEnterForeground",
+            "printedName": "sceneWillEnterForeground(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIScene",
+                "printedName": "UIKit.UIScene",
+                "usr": "c:objc(cs)UIScene"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PracticeFrameWork@objc(cs)SceneDelegate(im)sceneWillEnterForeground:",
+            "mangledName": "$s17PracticeFrameWork13SceneDelegateC24sceneWillEnterForegroundyySo7UISceneCF",
+            "moduleName": "PracticeFrameWork",
+            "isOpen": true,
+            "objc_name": "sceneWillEnterForeground:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sceneDidEnterBackground",
+            "printedName": "sceneDidEnterBackground(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIScene",
+                "printedName": "UIKit.UIScene",
+                "usr": "c:objc(cs)UIScene"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PracticeFrameWork@objc(cs)SceneDelegate(im)sceneDidEnterBackground:",
+            "mangledName": "$s17PracticeFrameWork13SceneDelegateC23sceneDidEnterBackgroundyySo7UISceneCF",
+            "moduleName": "PracticeFrameWork",
+            "isOpen": true,
+            "objc_name": "sceneDidEnterBackground:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SceneDelegate",
+                "printedName": "PracticeFrameWork.SceneDelegate",
+                "usr": "c:@M@PracticeFrameWork@objc(cs)SceneDelegate"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PracticeFrameWork@objc(cs)SceneDelegate(im)init",
+            "mangledName": "$s17PracticeFrameWork13SceneDelegateCACycfc",
+            "moduleName": "PracticeFrameWork",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PracticeFrameWork@objc(cs)SceneDelegate",
+        "mangledName": "$s17PracticeFrameWork13SceneDelegateC",
+        "moduleName": "PracticeFrameWork",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CurrencyTool",
+        "printedName": "CurrencyTool",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Currency",
+            "printedName": "Currency",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "USD",
+                "printedName": "USD",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PracticeFrameWork.CurrencyTool.Currency.Type) -> PracticeFrameWork.CurrencyTool.Currency",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Currency",
+                        "printedName": "PracticeFrameWork.CurrencyTool.Currency",
+                        "usr": "s:17PracticeFrameWork12CurrencyToolC0D0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PracticeFrameWork.CurrencyTool.Currency.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Currency",
+                            "printedName": "PracticeFrameWork.CurrencyTool.Currency",
+                            "usr": "s:17PracticeFrameWork12CurrencyToolC0D0O"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17PracticeFrameWork12CurrencyToolC0D0O3USDyA2EmF",
+                "mangledName": "$s17PracticeFrameWork12CurrencyToolC0D0O3USDyA2EmF",
+                "moduleName": "PracticeFrameWork"
+              },
+              {
+                "kind": "Var",
+                "name": "EUR",
+                "printedName": "EUR",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PracticeFrameWork.CurrencyTool.Currency.Type) -> PracticeFrameWork.CurrencyTool.Currency",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Currency",
+                        "printedName": "PracticeFrameWork.CurrencyTool.Currency",
+                        "usr": "s:17PracticeFrameWork12CurrencyToolC0D0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PracticeFrameWork.CurrencyTool.Currency.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Currency",
+                            "printedName": "PracticeFrameWork.CurrencyTool.Currency",
+                            "usr": "s:17PracticeFrameWork12CurrencyToolC0D0O"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17PracticeFrameWork12CurrencyToolC0D0O3EURyA2EmF",
+                "mangledName": "$s17PracticeFrameWork12CurrencyToolC0D0O3EURyA2EmF",
+                "moduleName": "PracticeFrameWork"
+              },
+              {
+                "kind": "Var",
+                "name": "JPY",
+                "printedName": "JPY",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PracticeFrameWork.CurrencyTool.Currency.Type) -> PracticeFrameWork.CurrencyTool.Currency",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Currency",
+                        "printedName": "PracticeFrameWork.CurrencyTool.Currency",
+                        "usr": "s:17PracticeFrameWork12CurrencyToolC0D0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PracticeFrameWork.CurrencyTool.Currency.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Currency",
+                            "printedName": "PracticeFrameWork.CurrencyTool.Currency",
+                            "usr": "s:17PracticeFrameWork12CurrencyToolC0D0O"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17PracticeFrameWork12CurrencyToolC0D0O3JPYyA2EmF",
+                "mangledName": "$s17PracticeFrameWork12CurrencyToolC0D0O3JPYyA2EmF",
+                "moduleName": "PracticeFrameWork"
+              },
+              {
+                "kind": "Var",
+                "name": "NTD",
+                "printedName": "NTD",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PracticeFrameWork.CurrencyTool.Currency.Type) -> PracticeFrameWork.CurrencyTool.Currency",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Currency",
+                        "printedName": "PracticeFrameWork.CurrencyTool.Currency",
+                        "usr": "s:17PracticeFrameWork12CurrencyToolC0D0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PracticeFrameWork.CurrencyTool.Currency.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Currency",
+                            "printedName": "PracticeFrameWork.CurrencyTool.Currency",
+                            "usr": "s:17PracticeFrameWork12CurrencyToolC0D0O"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17PracticeFrameWork12CurrencyToolC0D0O3NTDyA2EmF",
+                "mangledName": "$s17PracticeFrameWork12CurrencyToolC0D0O3NTDyA2EmF",
+                "moduleName": "PracticeFrameWork"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Currency",
+                    "printedName": "PracticeFrameWork.CurrencyTool.Currency",
+                    "usr": "s:17PracticeFrameWork12CurrencyToolC0D0O"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Currency",
+                    "printedName": "PracticeFrameWork.CurrencyTool.Currency",
+                    "usr": "s:17PracticeFrameWork12CurrencyToolC0D0O"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:17PracticeFrameWork12CurrencyToolC0D0O2eeoiySbAE_AEtFZ",
+                "mangledName": "$s17PracticeFrameWork12CurrencyToolC0D0O2eeoiySbAE_AEtFZ",
+                "moduleName": "PracticeFrameWork",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:17PracticeFrameWork12CurrencyToolC0D0O9hashValueSivp",
+                "mangledName": "$s17PracticeFrameWork12CurrencyToolC0D0O9hashValueSivp",
+                "moduleName": "PracticeFrameWork",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17PracticeFrameWork12CurrencyToolC0D0O9hashValueSivg",
+                    "mangledName": "$s17PracticeFrameWork12CurrencyToolC0D0O9hashValueSivg",
+                    "moduleName": "PracticeFrameWork",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:17PracticeFrameWork12CurrencyToolC0D0O4hash4intoys6HasherVz_tF",
+                "mangledName": "$s17PracticeFrameWork12CurrencyToolC0D0O4hash4intoys6HasherVz_tF",
+                "moduleName": "PracticeFrameWork",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:17PracticeFrameWork12CurrencyToolC0D0O",
+            "mangledName": "$s17PracticeFrameWork12CurrencyToolC0D0O",
+            "moduleName": "PracticeFrameWork",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "CurrencyError",
+            "printedName": "CurrencyError",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "valueLessThanZero",
+                "printedName": "valueLessThanZero",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PracticeFrameWork.CurrencyTool.CurrencyError.Type) -> PracticeFrameWork.CurrencyTool.CurrencyError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CurrencyError",
+                        "printedName": "PracticeFrameWork.CurrencyTool.CurrencyError",
+                        "usr": "s:17PracticeFrameWork12CurrencyToolC0D5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PracticeFrameWork.CurrencyTool.CurrencyError.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CurrencyError",
+                            "printedName": "PracticeFrameWork.CurrencyTool.CurrencyError",
+                            "usr": "s:17PracticeFrameWork12CurrencyToolC0D5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17PracticeFrameWork12CurrencyToolC0D5ErrorO17valueLessThanZeroyA2EmF",
+                "mangledName": "$s17PracticeFrameWork12CurrencyToolC0D5ErrorO17valueLessThanZeroyA2EmF",
+                "moduleName": "PracticeFrameWork"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CurrencyError",
+                    "printedName": "PracticeFrameWork.CurrencyTool.CurrencyError",
+                    "usr": "s:17PracticeFrameWork12CurrencyToolC0D5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CurrencyError",
+                    "printedName": "PracticeFrameWork.CurrencyTool.CurrencyError",
+                    "usr": "s:17PracticeFrameWork12CurrencyToolC0D5ErrorO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:17PracticeFrameWork12CurrencyToolC0D5ErrorO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s17PracticeFrameWork12CurrencyToolC0D5ErrorO2eeoiySbAE_AEtFZ",
+                "moduleName": "PracticeFrameWork",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:17PracticeFrameWork12CurrencyToolC0D5ErrorO9hashValueSivp",
+                "mangledName": "$s17PracticeFrameWork12CurrencyToolC0D5ErrorO9hashValueSivp",
+                "moduleName": "PracticeFrameWork",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17PracticeFrameWork12CurrencyToolC0D5ErrorO9hashValueSivg",
+                    "mangledName": "$s17PracticeFrameWork12CurrencyToolC0D5ErrorO9hashValueSivg",
+                    "moduleName": "PracticeFrameWork",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:17PracticeFrameWork12CurrencyToolC0D5ErrorO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s17PracticeFrameWork12CurrencyToolC0D5ErrorO4hash4intoys6HasherVz_tF",
+                "moduleName": "PracticeFrameWork",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:17PracticeFrameWork12CurrencyToolC0D5ErrorO",
+            "mangledName": "$s17PracticeFrameWork12CurrencyToolC0D5ErrorO",
+            "moduleName": "PracticeFrameWork",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Error",
+                "printedName": "Error",
+                "usr": "s:s5ErrorP",
+                "mangledName": "$ss5ErrorP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "swapCurrency",
+            "printedName": "swapCurrency(NTD:currency:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Currency",
+                "printedName": "PracticeFrameWork.CurrencyTool.Currency",
+                "usr": "s:17PracticeFrameWork12CurrencyToolC0D0O"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17PracticeFrameWork12CurrencyToolC04swapD03NTD8currencyS2d_AC0D0OtKF",
+            "mangledName": "$s17PracticeFrameWork12CurrencyToolC04swapD03NTD8currencyS2d_AC0D0OtKF",
+            "moduleName": "PracticeFrameWork",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CurrencyTool",
+                "printedName": "PracticeFrameWork.CurrencyTool",
+                "usr": "s:17PracticeFrameWork12CurrencyToolC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17PracticeFrameWork12CurrencyToolCACycfc",
+            "mangledName": "$s17PracticeFrameWork12CurrencyToolCACycfc",
+            "moduleName": "PracticeFrameWork",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17PracticeFrameWork12CurrencyToolC",
+        "mangledName": "$s17PracticeFrameWork12CurrencyToolC",
+        "moduleName": "PracticeFrameWork",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PracticeFrameWork",
+        "printedName": "PracticeFrameWork",
+        "declKind": "Import",
+        "moduleName": "PracticeFrameWork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InheritenceFramework",
+        "printedName": "InheritenceFramework",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "swapCurrency",
+            "printedName": "swapCurrency(NTD:currency:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Currency",
+                "printedName": "PracticeFrameWork.CurrencyTool.Currency",
+                "usr": "s:17PracticeFrameWork12CurrencyToolC0D0O"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17PracticeFrameWork20InheritenceFrameworkC12swapCurrency3NTD8currencyS2d_AA0G4ToolC0G0OtF",
+            "mangledName": "$s17PracticeFrameWork20InheritenceFrameworkC12swapCurrency3NTD8currencyS2d_AA0G4ToolC0G0OtF",
+            "moduleName": "PracticeFrameWork",
+            "overriding": true,
+            "isOpen": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InheritenceFramework",
+                "printedName": "PracticeFrameWork.InheritenceFramework",
+                "usr": "s:17PracticeFrameWork20InheritenceFrameworkC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17PracticeFrameWork20InheritenceFrameworkCACycfc",
+            "mangledName": "$s17PracticeFrameWork20InheritenceFrameworkCACycfc",
+            "moduleName": "PracticeFrameWork",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override",
+              "UsableFromInline"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17PracticeFrameWork20InheritenceFrameworkC",
+        "mangledName": "$s17PracticeFrameWork20InheritenceFrameworkC",
+        "moduleName": "PracticeFrameWork",
+        "isOpen": true,
+        "superclassUsr": "s:17PracticeFrameWork12CurrencyToolC",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "PracticeFrameWork.CurrencyTool"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PracticeFrameWork"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PracticeFrameWork"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "PracticeFrameWork"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "PracticeFrameWork"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
